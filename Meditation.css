@@ -1,0 +1,185 @@
+#centralise{
+    display:flex;
+    justify-content:center;
+    
+    
+}
+
+
+
+.fse {
+	background-color:blue;
+	animation: fse 19s infinite;
+	height:30vw;
+	width:30vw;
+
+
+}
+
+.fse::after{
+    content:"";
+    animation: fsea 19s infinite;
+    font-size:25vw;
+    transform:translateY(25%);
+    
+}
+
+@keyframes fse {
+	
+19% {height:60vw;
+	width:60vw;}
+
+
+55% {height:60vw;
+	width:60vw;}
+
+
+99% {height:30vw;
+	width:30vw;}
+
+
+}
+
+@keyframes fsea {
+    from {content:"inhale"}
+    
+    23% {content:"inhale"}
+    25% {content:"hold"}
+
+
+55% {content:"hold"}
+56% {content:"exhale"}
+
+99% {content:"exhale"}
+
+
+}
+
+
+.es {
+	background-color:lightblue;
+	animation: es 18s infinite;
+	height:30vw;
+	width:30vw;
+}
+
+.es::after{
+    content:"";
+    animation:esa 18s infinite;
+    font-size:25vw;
+}
+
+@keyframes es {
+	
+60% {height:60vw;
+	width:60vw;}
+
+
+99% {height:30vw;
+	width:30vw;}
+
+
+}
+
+
+@keyframes esa {
+    from {content:"inhale"}  
+    
+60% {content:"inhale"}
+    61% {content:"exhale"}
+
+
+99% {content:"exhale"}
+
+    
+    
+}
+
+#pa:after{
+    content:"inhale";
+    transform:translateY(30vw);
+    font-size:25vw;
+    
+}
+
+
+
+
+.tt { background-color:aquamarine;
+	animation: tt 20s infinite;
+	height:30vw;
+	width:30vw;
+}
+
+@keyframes tt {
+	
+50% {height:60vw;
+	width:60vw;
+    }
+
+
+99% {height:30vw;
+	width:30vw;}
+
+}
+
+.tt::after{
+    content:"";
+    animation: tta 20s infinite;
+    font-size:25vw;
+}
+
+@keyframes tta {
+    
+    from {content:"inhale"}
+	
+50% {content:"exhale""
+    }
+
+
+99% {content:"exhale"}
+
+}
+
+
+
+
+.sf{background-color:orange;
+	animation: sf 10s infinite;
+	height:30vw;
+	width:30vw;}
+
+.sf::after{
+    content:"";
+    animation: sfa 10s infinite;
+    font-size:25vw;
+}
+
+
+@keyframes sf {
+	40% {height:60vw;
+	width:60vw;}
+    
+    to {height:30vw;
+	width:30vw;}
+}
+
+@keyframes sfa {
+	from {content:"inhale"}
+    
+    to {content:"exhale";}
+}
+
+
+
+
+    #pa{
+        height:30vw;
+        width:30vw;
+        border: black solid;
+        border-radius:50%;
+    }
+
+.na{
+    
+}
